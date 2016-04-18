@@ -1,0 +1,11 @@
+package foo;
+
+message DataFoo {
+  optional string label = 1;
+  optional int32 type = 2;
+}
+
+message DataBar {
+  optional string label = 1;
+  optional string state =2;
+}
